@@ -333,6 +333,16 @@
     Namespace:
     - :string
     - :required
+  :outputs:
+    :children:
+      PutMetricDataResponse:
+        :ignore: true
+        :children:
+          ResponseMetadata:
+            :ignore: true
+            :children:
+              RequestId:
+                :ignore: true
 - :name: SetAlarmState
   :method: :set_alarm_state
   :inputs:
