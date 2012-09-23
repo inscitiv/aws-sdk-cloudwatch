@@ -13,6 +13,7 @@
 # limitations under the License.
 
 require 'aws/core'
+require 'aws/core/client/query_xml'
 require 'aws/core/option_grammar/double'
 require 'yaml'
 

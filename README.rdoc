@@ -1,6 +1,8 @@
 = AWS SDK for Ruby -- CloudWatch API support
 
 This gem adds rudimentary support for the CloudWatch API to the official AWS SDK for Ruby.
+*Please note*: the official SDK adds support for CloudWatch in 1.5.7, with a slightly different interface. 
+Currently this gem doesn't work with that; I plan to make it use that and leave only sugar here.
 
 == SYNOPSIS
 

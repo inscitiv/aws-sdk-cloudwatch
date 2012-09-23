@@ -2,3 +2,4 @@
 0.0.2: Fixed the case when the range is only milliseconds longer than acceptable batch size.
 0.0.3: #get trivially returns [] if range is shorter than period
 0.0.4: Use 'monitoring' as the service name. Either AWS changed it or just started checking it.
+0.0.5: Some fixes for PutMetricData; prohibit aws-sdk >= 1.5.7 (for now).

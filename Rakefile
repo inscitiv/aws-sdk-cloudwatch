@@ -16,6 +16,8 @@ require 'bundler/gem_tasks'
 require 'rspec/core/rake_task'
 
 RSpec::Core::RakeTask.new :spec do |t|
+  require 'rubygems'
+  require 'bundler/setup'
 end
 
 task :default => :spec
