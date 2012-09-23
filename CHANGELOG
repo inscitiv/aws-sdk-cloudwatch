@@ -3,3 +3,4 @@
 0.0.3: #get trivially returns [] if range is shorter than period
 0.0.4: Use 'monitoring' as the service name. Either AWS changed it or just started checking it.
 0.0.5: Some fixes for PutMetricData; prohibit aws-sdk >= 1.5.7 (for now).
+0.0.6: Fixed some permission (400) problems in the gemball [why does that even happen?]

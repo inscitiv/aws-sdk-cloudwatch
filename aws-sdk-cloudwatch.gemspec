@@ -17,7 +17,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "aws-sdk-cloudwatch"
-  s.version     = '0.0.5'
+  s.version     = '0.0.6'
   s.authors     = ["Rafał Rzepecki"]
   s.email       = ["divided.mind@gmail.com"]
   s.homepage    = "https://github.com/inscitiv/aws-sdk-cloudwatch"
